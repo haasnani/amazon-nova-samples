@@ -1,7 +1,7 @@
 # Securities Law Synthetic Data for Amazon Nova Fine-Tuning
 
 ## Non-determinsitc raw data and samples generation
-Please note that each download of raw data sources is non-deterministic. So is the fine-tuning samples generation by virtue of using LLM.
+Please note that each download of raw data sources is non-deterministic. So are the fine-tuning samples generation by virtue of using an LLM.
 
 
 ## License
@@ -76,7 +76,7 @@ Models learn to classify queries into 8 predefined categories:
 | `regulatory_interpretation_research` | statute_retrieval → case_law_search | Regulation + precedent research |
 
 ## Generate Raw Data
-The notebook `TBA.ipynb` contains the data generation workflow:
+The notebook [`01_Data_prep.ipynb`](https://github.com/aws-samples/amazon-nova-samples/blob/main/customization/Nova_2.0/workshop/EndToEnd_SFT_RFT_Workshop/SFT_RFT/01_Data_prep.ipynb) contains the data generation workflow:
 
 ```python
 # Download EDGAR agreements
